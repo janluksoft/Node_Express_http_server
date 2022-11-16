@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="../css/styles.css"/> 
+    <title>{{zPageTitle}}</title>
+</head>
+<body>
+
+    <form id="form1" runat="server">
+
+      {{> navig }}
+      <div class="start">
+            <img src="../images/node_express_5.png" width="220"style="float: right; padding: 16px;">
+
+            <div style="font-size:16pt; color:#302009; padding: 6px 6px 0px 4px;">
+                <b>A multipage web application on a node.js server</b>
+            </div>
+            <div style="font-size:12pt; color:#bea26b; padding: 0px 6px 4px 4px;">
+                <b>Using the Express and Handlebars frameworks</b>
+            </div>
+
+            <h3>Express framework</h3>
+
+            <p>
+                Node comes with a built-in http library, which is an http server. However, it is a simple server,
+                e.g. you have to write the routing yourself and the library leads to problems and errors. 
+                A better way is to use the ready-made Express framework for Node.
+            </p>
+            <p>
+                Express is a minimal and flexible Node.js web application framework that provides a robust 
+                set of features to develop web and mobile applications. It facilitates the rapid development 
+                of Node based Web applications. 
+            </p>
+            <p>
+                Following are some of the core features of Express framework:
+                <ul>
+                    <li>Allows to set up middlewares to respond to HTTP Requests;</li>
+                    <li>Defines a routing table which is used to perform different actions based on HTTP Method and URL;</li>
+                    <li>Allows to dynamically render HTML Pages based on passing arguments to templates.</li>
+                </ul>
+            </p>
+            
+      </div>
+      {{> footer}}
+
+    </form>
+
+</body>
+</html>
